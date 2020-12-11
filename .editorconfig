@@ -1,0 +1,23 @@
+# top-most EditorConfig
+root = true
+end_of_line = lf
+insert_final_newline = true
+
+
+# Inherited conventions from STM32CubeMX
+# --------------------------------------
+[*.{c,h,s}]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+ident_style = space
+ident_size = 2
+
+[{*.ioc,.mxproject}]
+end_of_line = lf
+insert_final_newline = true
+
+# Inherited conventions from STM32CubeIDE
+# ---------------------------------------
+[.cproject,.project]
+ident_style = tab
